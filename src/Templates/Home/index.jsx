@@ -83,7 +83,7 @@ export class Home extends Component {
         </div>
 
         {filteredPosts.length > 0 && (<Posts posts={filteredPosts} />)}
-        {filteredPosts.length == 0 && (<h1>BUSCA NÃO ENCONTRADA</h1>)}
+        {filteredPosts.length === 0 && (<h1>BUSCA NÃO ENCONTRADA</h1>)}
 
         <div className='button-container'>
           {!searchValue && (<Button
