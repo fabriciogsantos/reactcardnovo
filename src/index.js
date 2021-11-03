@@ -1,13 +1,12 @@
-import './styles/global-styles.css';
+import "./styles/global-styles.css";
 
-import React from 'react';
-import ReactDOM from 'react-dom';
-import {Home} from './Templates/Home'
+import React from "react";
+import ReactDOM from "react-dom";
+import { Home } from "./Templates/Home";
 
 ReactDOM.render(
   <React.StrictMode>
     <Home />
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
-
